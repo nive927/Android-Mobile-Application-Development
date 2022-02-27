@@ -3,6 +3,7 @@ package com.example.menu;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -23,7 +24,23 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-//        TODO: Need to add switch menu and return true and default case. Check video.
+
+        switch (item.getItemId())
+        {
+            case R.id.name:
+                Intent intent1 = new Intent(MainActivity.this, Name.class);
+                startActivity(intent1);
+                break;
+            case R.id.phone:
+                Intent intent2 = new Intent(MainActivity.this, Phone.class);
+                startActivity(intent2);
+                break;
+            case R.id.college:
+                Intent intent3 = new Intent(MainActivity.this, College.class);
+                startActivity(intent3);
+                break;
+            default: return super.onOptionsItemSelected(item);
+        }
 
         return super.onOptionsItemSelected(item);
 

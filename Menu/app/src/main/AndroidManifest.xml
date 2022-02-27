@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Menu">
         <activity
+            android:name=".College"
+            android:exported="false" />
+        <activity
+            android:name=".Phone"
+            android:exported="false" />
+        <activity
+            android:name=".Name"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
