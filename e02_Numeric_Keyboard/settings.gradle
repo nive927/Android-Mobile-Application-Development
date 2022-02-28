@@ -1,0 +1,2 @@
+rootProject.name = "e02_Numeric_Keyboard"
+include ':app'
