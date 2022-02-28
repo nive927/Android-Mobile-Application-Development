@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 reset_im();
 
+//                under res/drawable/bus.png
                 im.setImageResource(R.drawable.bus);
 
                 float x = im.getX();
