@@ -5,7 +5,7 @@ Several reusable code snippets for Mobile Application Development in Android Stu
 - [Graphics](./Graphics/app/src/main/java/com/example/graphics/MainActivity.java)
 - Database: [Create](./DBCrud/app/src/main/java/com/example/dbcrud/MainActivity.java), [Insert](./DBCrud/app/src/main/java/com/example/dbcrud/Insert.java), [Retrieve](./DBCrud/app/src/main/java/com/example/dbcrud/Retrieve.java), [Update](./DBCrud/app/src/main/java/com/example/dbcrud/Update.java) and [Delete](./DBCrud/app/src/main/java/com/example/dbcrud/Delete.java)
 - Multi-threading: [Progress Bar](./ProgressBar/app/src/main/java/com/example/progressbar/MainActivity.java)
-- GPS: [Fused](./GPS/app/src/main/java/com/example/gps/MainActivity.java), LocationManager and LocationCoordinates
+- GPS: [Fused](./GPS/app/src/main/java/com/example/gps/MainActivity.java), [LocationManager](./GpsTest/app/src/main/java/com/example/gpstest/MainActivity.java) and LocationCoordinates
 - SMS: [Send](./SMS/app/src/main/java/com/example/sms/MainActivity.java)
 - Alarm: [Main](./Alarm/app/src/main/java/com/example/alarm/MainActivity.java) and [Alarm](./Alarm/app/src/main/java/com/example/alarm/Alarm.java)
 - SD Card: [Read and Write](./SDCard/app/src/main/java/com/example/sdcard/MainActivity.java)
